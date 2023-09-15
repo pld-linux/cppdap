@@ -33,6 +33,7 @@ Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki cppdap
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel >= 6:4.7
+Requires:	nlohmann-json-devel
 
 %description devel
 Header files for cppdap library.
