@@ -14,6 +14,7 @@ URL:		https://github.com/google/cppdap
 BuildRequires:	cmake >= 3.13
 BuildRequires:	libstdc++-devel >= 6:4.7
 BuildRequires:	nlohmann-json-devel
+BuildRequires:	rpmbuild(macros) >= 1.605
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
